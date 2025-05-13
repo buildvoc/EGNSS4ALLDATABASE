@@ -578,7 +578,11 @@ CREATE TABLE `photo` (
   `efkLatGalIf` float DEFAULT NULL,
   `efkLngGalIf` float DEFAULT NULL,
   `efkAltGalIf` float DEFAULT NULL,
-  `efkTimeGalIf` datetime DEFAULT NULL
+  `efkTimeGalIf` datetime DEFAULT NULL,
+  `provider` varchar(255) DEFAULT NULL,
+  `osnma_enabled` varchar(255) DEFAULT NULL,
+  `osnma_validated` varchar(255) DEFAULT NULL,
+  `validated_sats` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 -- --------------------------------------------------------
